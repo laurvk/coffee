@@ -1,0 +1,133 @@
+#title{
+	color: black;
+}
+
+#subtitle{
+	color: black;
+}
+
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+#logo{
+	width: 30%;
+	position: absolute;
+}
+
+#signInIcon{
+	width: 5%;
+	transform:  translate(1895%,-1303%);
+}
+
+#menuIcon{
+	width: 5%;
+	transform:  translate(1790%,-1330%);
+}
+
+p{
+	width: 5rem;
+	font-size: 150%;
+	color: black;
+	display: inline;
+}
+
+body{
+	background-color:  lightpink;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 10px;
+	line-height: 1.6;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 260%;
+	text-align:  left;	
+	transform: translate(5%,-100%);
+}
+
+h2{
+	font-size: 200%;
+	position: absolute;
+	padding: 20px;
+}
+
+a{
+	text-decoration:  none;
+}
+
+.stream{
+	height:  80px;
+	width: 80px;
+	object-fit: cover;
+	border-radius: 20px;
+	position: relative;
+}
+
+#options{
+	position: absolute;
+}
+
+ol{
+	list-style-type: upper-roman;
+}
+
+ul{
+	list-style-type: square;
+}
+
+li{
+	list-style-type: none;
+	line-height: 30px;
+	text-align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+}
+
+.bannerthings{
+	position: absolute;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2{
+	position: absolute;
+}
+
+#topBanner > h2{
+	transform:  translate(35%, 1000%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 10%;
+	padding-left: 10%;
+}
+
+#itunes{
+	width: 300px;
+	height: 300px;
+}
+
+#spotify{
+	width: 300px;
+	height: 300px;
+}
+
+#navigationMenu{
+	display:  flex;
+	justify-content: space-evenly;
+	padding-top: 10%;
+}
